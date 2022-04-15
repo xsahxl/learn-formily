@@ -23,7 +23,7 @@ const SchemaField = createSchemaField({
   },
   scope: {
     icon(name) {
-      console.log('====', name);
+      console.log("====", name);
       return React.createElement(ICONS[name]);
     },
   },
